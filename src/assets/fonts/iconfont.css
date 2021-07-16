@@ -1,6 +1,8 @@
 @font-face {
-  font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1626313916167') format('truetype');
+  font-family: "iconfont"; /* Project id 2679956 */
+  src: url('iconfont.woff2?t=1626424437091') format('woff2'),
+       url('iconfont.woff?t=1626424437091') format('woff'),
+       url('iconfont.ttf?t=1626424437091') format('truetype');
 }
 
 .iconfont {
@@ -9,6 +11,26 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-baobiao:before {
+  content: "\e600";
+}
+
+.icon-006shangpin:before {
+  content: "\e601";
+}
+
+.icon-025danju:before {
+  content: "\e602";
+}
+
+.icon-028tijikongjian:before {
+  content: "\e603";
+}
+
+.icon-users:before {
+  content: "\e830";
 }
 
 .icon-tubiao211:before {

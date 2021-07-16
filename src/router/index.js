@@ -5,13 +5,23 @@ import VueRouter from 'vue-router'
 import Login from '@/components/Login'
 // 导入Home组件
 import Home from '@/components/Home'
+// 导入Welcome这个组件
+import Welcome from '@/components/Welcome'
 
 Vue.use(VueRouter)
 
 const routes = [
     { path: '/', redirect: '/login' },
     { path: '/login', component: Login },
-    { path: '/home', component: Home } // 添加路由规则
+    {
+        path: '/home',
+        component: Home,
+        // 只要你访问了/home这个地址，我就让你重定向到/welcome这个子路由规则
+        redirect: '/welcome',
+        children: [
+            { path: '/welcome', component: Welcome }
+        ]
+    } // 添加路由规则
 ]
 
 const router = new VueRouter({

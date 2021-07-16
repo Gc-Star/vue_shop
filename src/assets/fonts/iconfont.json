@@ -1,10 +1,45 @@
 {
-  "id": "",
-  "name": "",
+  "id": "2679956",
+  "name": "vue_shop",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
   "glyphs": [
+    {
+      "icon_id": "9449727",
+      "name": "406报表",
+      "font_class": "baobiao",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "18263302",
+      "name": "006 商品",
+      "font_class": "006shangpin",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "18263330",
+      "name": "025 单据",
+      "font_class": "025danju",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "18263340",
+      "name": "028 体积、空间",
+      "font_class": "028tijikongjian",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "432096",
+      "name": "users",
+      "font_class": "users",
+      "unicode": "e830",
+      "unicode_decimal": 59440
+    },
     {
       "icon_id": "258574",
       "name": "用户名",
